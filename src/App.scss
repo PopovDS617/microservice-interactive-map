@@ -1,11 +1,14 @@
 .app-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
 }
 
 .leaflet-container {
-  width: 100vw;
+  width: 95vw;
   height: 80vh;
-  border-top-right-radius: 20px;
-  border-top-left-radius: 20px;
+  border-radius: 20px;
 }
 .main-title {
   color: white;

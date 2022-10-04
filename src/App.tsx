@@ -38,7 +38,6 @@ const App = () => {
   return (
     <div className="app-container">
       <div className="main-title">адреса Кексов в Ростове</div>
-      <div className="sub-title">булки • кофе • любовь</div>
 
       <MapContainer center={[47.2296193390934, 39.71429169385564]} zoom={zoom}>
         <TileLayer
@@ -51,6 +50,7 @@ const App = () => {
           </Marker>
         ))}
       </MapContainer>
+      <div className="sub-title">булки • кофе • любовь</div>
     </div>
   );
 };
