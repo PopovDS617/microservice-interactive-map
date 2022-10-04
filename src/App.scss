@@ -1,0 +1,29 @@
+.app-container {
+}
+
+.leaflet-container {
+  width: 100vw;
+  height: 80vh;
+  border-top-right-radius: 20px;
+  border-top-left-radius: 20px;
+}
+.main-title {
+  color: white;
+  height: 12vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  font-size: 5rem;
+  font-family: 'Amatic SC', cursive;
+}
+.sub-title {
+  color: white;
+  height: 8vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  font-size: 3rem;
+  font-family: 'Amatic SC', cursive;
+}
