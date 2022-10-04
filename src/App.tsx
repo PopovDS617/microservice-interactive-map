@@ -8,6 +8,9 @@ import icon from './assets/marker.png';
 
 let DefaultIcon = L.icon({
   iconUrl: icon,
+  iconSize: [20, 30],
+  iconAnchor: [5, 20],
+  popupAnchor: [2, -40],
 });
 
 L.Marker.prototype.options.icon = DefaultIcon;
