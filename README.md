@@ -1,11 +1,11 @@
-# made with:
-- React + TS
-- SASS
-- react-leaflet
+## DEMO https://popov-bakery-locations.netlify.app/
 
+## Getting Started
+#### `1. npm install`
+#### `2. npm run dev`
 
-# to start:
+<br>
 
-### npm install
+## TO DO:
 
-### npm start
+to be added later 
